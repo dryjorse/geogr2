@@ -1,0 +1,71 @@
+.characteristic {
+    position: relative;
+    
+    padding: 55px 0 190px 0;
+    text-align: justify;
+    background: no-repeat url('../../assets/img/backTwo.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;   
+}
+.characteristic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(85, 85, 85, 0.3);
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.infoText {
+    font-size: 20px;
+    max-width: 760px;
+}
+.infoText:not(:last-child){
+    margin-top: 50px;
+}
+.box {
+    position: relative;
+    width: 565px;
+    height: 725px;
+    margin-top: 90px;
+    padding: 18px 0 60px;
+    background: linear-gradient(270deg, #7D6118 0%, rgba(39, 17, 2, 0.86) 100%);
+    border-radius: 85px;
+    box-shadow: 0 0 40px black;
+    font-size: 16px;
+}
+.person {
+    position: absolute;
+}
+.personHead {
+    margin: 0 0 10px 50px;
+    padding: 22px 12px;
+    max-width: 138px;
+    border-radius: 31px;
+}
+.personHead p {
+    font-size: 20px;
+    text-align: center;
+}
+.personBody {
+    max-width: 230px;
+    padding: 14px 11px;
+    border-radius: 30px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+    .box {
+        display: none;
+    }
+}

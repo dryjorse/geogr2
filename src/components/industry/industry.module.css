@@ -1,0 +1,22 @@
+.industry {
+    padding: 60px 0 110px;
+    background: no-repeat url('../../assets/img/backThree.jpg');
+    background-size: cover;
+}
+.industry h3 {
+    margin: 50px 0 30px;
+    font-style: italic;
+    color: #323232;
+}
+.groups {
+    padding-left: 28px;
+    max-width: 730px;
+    list-style-type: disc;
+}
+.list {
+    font-size: 20px;
+}
+.list:not(:last-child){
+    margin-bottom: 30px;
+}
+

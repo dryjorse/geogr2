@@ -1,0 +1,10 @@
+.recognized {
+    padding: 75px 0 150px;
+    background: no-repeat url(../../assets/img/backFour.jpg);
+    background-size: cover;
+    border: none;
+}
+.text {
+    margin-top: 45px;
+    max-width: 580px;
+}

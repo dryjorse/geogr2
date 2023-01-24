@@ -1,0 +1,20 @@
+.footer {
+    border: none;
+    padding: 80px 0;
+    background: linear-gradient(0deg, #0C0601 -103.08%, rgba(0, 0, 0, 0.87) 100%);
+    color: white;
+    text-align: center;
+}
+.title {
+    font-weight: 500;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+.social img {
+    width: 40px;
+    height: 40px;
+}

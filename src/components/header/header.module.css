@@ -1,0 +1,121 @@
+.header {
+    position: relative;
+    font-family: 'Podkova';
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+    width: 100%;
+    z-index: 20;
+    background: white;
+}
+.headerMob {
+    border-bottom: 3px solid black;
+}
+.menuList {
+    display: flex;
+    justify-content: center;
+}
+.register {
+    position: absolute;
+    right: 80px;
+}
+.regButton {
+    font-family: 'Podkova';
+    position: relative;
+    font-size: 22px;
+    background-color: #D9D9D9;
+    padding: 8px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.regButton:not(:last-child){
+    margin-right: 30px;
+}
+.login {
+    background-color: #7D6118;
+    padding: 8px;
+    border-radius: 67px;
+}
+
+.headerMob {
+    justify-content: space-between;
+    padding: 38px 45px;
+    position: relative;
+    z-index: 5;
+}
+.menuItemBlock {
+    cursor: pointer;
+}
+.menuItem {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+}
+.menuItem:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.burgerMenu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 0 15px grey;
+    border-radius: 0 30px 30px 0;
+    height: 100%;
+    z-index: 10;
+}
+
+.menuListMob {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menuListMob li {
+    display: block;
+    
+}
+.menuListMob li a {
+    background-color: inherit;
+    padding: 0;
+    color: #323232 !important;
+    font-size: 22px !important;
+    background-color: inherit !important;
+    border: none !important;
+}
+
+.menuListMob li:not(:last-child){
+    margin: 0 0 60px 0;
+}
+
+.openMenu {
+    left: 0 !important;
+}
+
+.coverBody {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+    z-index: 9; 
+}
+
+.currentPage {
+    position: relative;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 8px 19px;
+    background-color: #665F5F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+}

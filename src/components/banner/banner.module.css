@@ -1,0 +1,73 @@
+.banner {
+    padding: 260px 0 170px;
+    font-family: 'Caveat';
+}
+.container {
+    padding-right: 120px;
+}
+.mainBlock {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.mainBlock > h1 {
+    display: none;
+}
+.mainImg {
+    border-radius: 30px;
+}
+.mapImg {
+    position: absolute;
+    top: -200px;
+    left: 80px;
+    z-index: -1;
+}
+.mainTextsBlock {
+    padding-top: 10px;
+    text-align: center;
+}
+h1 {
+    font-weight: bold;
+    font-size: 64px;
+    font-style: italic;
+}
+.mainDescr {
+    margin-top: 30px;
+    max-width: 400px;
+    font-size: 25px;
+}
+
+@media (max-width: 480px) {
+    .banner {
+        padding: 30px 0 105px;
+    }
+    .container {
+        padding: 0 30px;
+    }
+    .mainBlock {
+        flex-direction: column;
+    }
+    .mainBlock > h1 {
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        line-height: 38px;
+        font-weight: bold;
+    }
+    .mainImg {
+        width: 80%;
+        margin: 30px auto;
+    }
+    .mainTextsBlock {
+        order: 1;
+    }
+    .mainTextsBlock h1 {
+        display: none;
+    }
+    .mainDescr {
+        margin: 0;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+}

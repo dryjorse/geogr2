@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
+import useMatchMedia from 'use-match-media';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import MainPage from './pages/mainPage/MainPage';
+import HeaderMobile from './components/header/HeaderMobile';
+import CountriesPage from './pages/countriesPage/CountriesPage';
+import CountriePage from './pages/countriePage/CountriePage';
+
+ 
 
 function App() {
+  const isMobile = useMatchMedia('(max-width: 480px)')  
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter hashType="hashbang">
+      <div className="App">
+        {
+          isMobile ? <HeaderMobile /> : <Header />
+        }
+        <Routes>
+          <Route index element={<MainPage />}/>
+          <Route path='/countries' element={<CountriesPage />}/>
+          <Route path='/countries/:countrie' element={<CountriePage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </HashRouter>
   );
 }
 
