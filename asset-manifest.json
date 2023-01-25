@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/geogr2/static/css/main.04098c52.css",
+    "main.js": "/geogr2/static/js/main.0bd73840.js",
+    "static/media/backTwo.jpg": "/geogr2/static/media/backTwo.cd62e687612aed2c7b5c.jpg",
+    "static/media/backFour.jpg": "/geogr2/static/media/backFour.1c396510c297d573206b.jpg",
+    "static/media/china-three.jpg": "/geogr2/static/media/china-three.81f53b4766526f54e430.jpg",
+    "static/media/backThree.jpg": "/geogr2/static/media/backThree.8ddae079bb9d86533345.jpg",
+    "static/media/china-banner.jpg": "/geogr2/static/media/china-banner.f90dc484cbb4d087c7d4.jpg",
+    "static/media/china-one.jpg": "/geogr2/static/media/china-one.f6339781712b9079919e.jpg",
+    "static/media/japan-two.jpg": "/geogr2/static/media/japan-two.bef9d1b07001b23650c8.jpg",
+    "static/media/china-two.jpg": "/geogr2/static/media/china-two.5042403fbd85e05904e7.jpg",
+    "static/media/japan-banner.jpg": "/geogr2/static/media/japan-banner.dc443e5b598765f32a98.jpg",
+    "static/media/japan-one.jpg": "/geogr2/static/media/japan-one.9f5c6abee0030f5724ce.jpg",
+    "static/media/india-three.jpg": "/geogr2/static/media/india-three.e96566b97a1c417d31b1.jpg",
+    "static/media/china-card.jpg": "/geogr2/static/media/china-card.e96b04fea507a70217ca.jpg",
+    "static/media/india-card.jpg": "/geogr2/static/media/india-card.961214431c95c00c9219.jpg",
+    "static/media/india-one.jpg": "/geogr2/static/media/india-one.c110a0fa8598ab5d505c.jpg",
+    "static/media/map.png": "/geogr2/static/media/map.d3bbc54aaeef0fae3f81.png",
+    "static/media/japan-card.jpg": "/geogr2/static/media/japan-card.2540a2078bd0ccf9e8fb.jpg",
+    "static/media/instagram.svg": "/geogr2/static/media/instagram.da114d9d45b0c070c499e9da8b1a2cdc.svg",
+    "static/media/whatsapp.svg": "/geogr2/static/media/whatsapp.3b4fdbc52bcca437438d0cc246e6dd96.svg",
+    "index.html": "/geogr2/index.html",
+    "main.04098c52.css.map": "/geogr2/static/css/main.04098c52.css.map",
+    "main.0bd73840.js.map": "/geogr2/static/js/main.0bd73840.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04098c52.css",
+    "static/js/main.0bd73840.js"
+  ]
+}
